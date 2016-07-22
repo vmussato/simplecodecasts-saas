@@ -55,7 +55,7 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   #Use devise for user auth
-  gem 'devise','3.5.2'
+  gem 'devise','3.4.1'
 #use stripe for handling payments
   gem 'stripe','1.48.0'
 #use figaro to hide secret keys
