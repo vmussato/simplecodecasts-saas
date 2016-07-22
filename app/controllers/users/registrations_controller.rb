@@ -1,5 +1,5 @@
 class Users::RegistrationsController < Devise::RegistrationsController
-  
+
   def create
     super do |resource|
       if params{:plan}
@@ -9,8 +9,7 @@ class Users::RegistrationsController < Devise::RegistrationsController
         else
           resource.save
         end
-      end        
+      end
     end
-  
   end
 end
